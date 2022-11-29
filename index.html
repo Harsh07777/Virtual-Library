@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Online Boot Store Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="preloader"></div>
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Book Store </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a target="blank"href="http://127.0.0.1:5500/handwritten.html" href="#home">Home</a>
+            <a target="blank"href="https://drive.google.com/drive/folders/1j85_jcoxSeIccH_vN5Y6jXVSo2HwuBtC">e-books</a>
+            <a href="#handwritten-notes">handwritten-notes</a>
+            <a target="blank"href="https://drive.google.com/drive/folders/1ThgWiUpzSuhHYcqh3B7BhjB0_PlwcqGS">previous-year-question-papers</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#e-books" class="fas fa-list"></a>
+    <a href="#handwritten-notes" class="fas fa-tags"></a>
+    <a href="#previous-year-question-papers" class="fas fa-comments"></a>
+    <!-- <a href="#blogs" class="fas fa-blog"></a> -->
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+    
+        <p>please <a href="http://localhost/project/register.php">SIGN IN here</a></p>
+        <p>Student Info. <a href="file:///C:/Users/dell/Desktop/complete%20web%20development/bootstrap/Updated/Registration.html">CLICK here</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Virtual Library</h3>
+            <p>Books, Syllabus, Notes for all the courses at one place<br />Buy, Download and Upload your books/Notes  </p>
+            <a href="#" class="btn">search now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="CC.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="SOA.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="DSA.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="Java.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="OS.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="Linear-Algebra.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fa fa-download"></i>
+        <div class="content">
+            <h3>book PDFs</h3>
+            <p>download free e-books, pdfs etc.</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-upload"></i>
+        <div class="content">
+            <h3>Handwritten Notes</h3>
+            <p>Upload your old books or notes</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-recycle"></i>
+        <div class="content">
+            <h3>Previous Year Question Papers</h3>
+            <p>upload your previous year question papers and help others</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-download"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="CC.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cloud</h3>
+                    <div class="price"> <span></span></div>
+                    <a href="Cloud Computing Principles and Paradigms (Wiley Series on Parallel and Distributed Computing).pdf" download="CCA" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-download"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="SOA.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOA</h3>
+                    <div class="price"><span></span></div>
+                    <a href="Distributed and Cloud Computing From Parallel Processing To The Internet Of Things.pdf" download="SOA"class="btn">Dowload</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="DSA.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>DSA</h3>
+                    <div class="price"><span></span></div>
+                    <a href="Silberschatz.pdf" class="btn" download="OS">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Java.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Java</h3>
+                    <div class="price"><span></span></div>
+                    <a href="Java The Complete Reference Ninth Edition.pdf" download class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="OS.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>OS</h3>
+                    <div class="price"><span></span></div>
+                    <a href="Book Operating System Concepts by Abraham Silberschatz, Greg Gagne, Peter B. Galvin (z-lib.org).pdf" download class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Linear-Algebra.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Algebra</h3>
+                    <div class="price"><span></span></div>
+                    <a href="Elementary Linear Algebra, Applications Version by Howard Anton, Chris Rorres (z-lib.org) (1).pdf" download class="btn">Dowload</a>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bhopal </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Vellore </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chennai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Amravati </a>
+            <!--<a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a> -->
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+             <a href="#"> <i class="fas fa-arrow-right"></i> e-books </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Handwritten-Notes </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Previous-Year-Question-Papers </a>
+            <!-- <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a> -->
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> viewed items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <!--<a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>-->
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91-9310660566 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-7874862630 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-6265288641 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-7000899248 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-7007082910 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> pegrp25@gmail.com </a>
+            <img src="image/world.png" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>Group 25</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt=""> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+var loader=document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display="none";
+})
+</script>
+</body>
+</html>
